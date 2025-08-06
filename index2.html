@@ -1,0 +1,128 @@
+ git add index.html
+
+Tanjil Alam@TANJIL-ALAMPC MINGW64 ~/Desktop/WorkSpace/New folder (4) (master)
+$ git  commit -m "First rsponsive wev"
+[master (root-commit) c30eb44] First rsponsive wev
+ 1 file changed, 78 insertions(+)
+ create mode 100644 index.html
+
+Tanjil Alam@TANJIL-ALAMPC MINGW64 ~/Desktop/WorkSpace/New folder (4) (master)
+$ git push origin master
+To https://github.com/Heykcer/Responsive-web-design.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Heykcer/Responsive-web-design.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Tanjil Alam@TANJIL-ALAMPC MINGW64 ~/Desktop/WorkSpace/New folder (4) (master)
+$ git push -M
+error: unknown switch `M'
+usage: git push [<options>] [<repository> [<refspec>...]]
+
+    -v, --[no-]verbose    be more verbose
+    -q, --[no-]quiet      be more quiet
+    --[no-]repo <repository>
+                          repository
+    --[no-]all            push all branches
+    --[no-]branches       alias of --all
+    --[no-]mirror         mirror all refs
+    -d, --[no-]delete     delete refs
+    --[no-]tags           push tags (can't be used with --all or --branches or --mirror)
+    -n, --[no-]dry-run    dry run
+    --[no-]porcelain      machine-readable output
+    -f, --[no-]force      force updates
+    --[no-]force-with-lease[=<refname>:<expect>]
+                          require old value of ref to be at this value
+    --[no-]force-if-includes
+                          require remote updates to be integrated locally
+    --[no-]recurse-submodules (check|on-demand|no)
+                          control recursive pushing of submodules
+    --[no-]thin           use thin pack
+    --[no-]receive-pack <receive-pack>
+                          receive pack program
+    --[no-]exec <receive-pack>
+                          receive pack program
+    -u, --[no-]set-upstream
+                          set upstream for git pull/status       
+    --[no-]progress       force progress reporting
+    --[no-]prune          prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --verify              opposite of --no-verify
+    --[no-]follow-tags    push missing but relevant tags
+    --[no-]signed[=(yes|no|if-asked)]
+                          GPG sign the push
+    --[no-]atomic         request atomic transaction on remote side
+    -o, --[no-]push-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+
+
+Tanjil Alam@TANJIL-ALAMPC MINGW64 ~/Desktop/WorkSpace/New folder (4) (master)
+$ git push origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/Heykcer/Responsive-web-design.git'
+
+Tanjil Alam@TANJIL-ALAMPC MINGW64 ~/Desktop/WorkSpace/New folder (4) (master)
+$ git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+
+Tanjil Alam@TANJIL-ALAMPC MINGW64 ~/Desktop/WorkSpace/New folder (4) (master)
+$ git pull master
+fatal: 'master' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+Tanjil Alam@TANJIL-ALAMPC MINGW64 ~/Desktop/WorkSpace/New folder (4) (master)
+$ git pull origin msater
+fatal: couldn't find remote ref msater
+
+Tanjil Alam@TANJIL-ALAMPC MINGW64 ~/Desktop/WorkSpace/New folder (4) (master)
+$ git pull origin master
+From https://github.com/Heykcer/Responsive-web-design
+ * branch            master     -> FETCH_HEAD
+fatal: refusing to merge unrelated histories
+
+Tanjil Alam@TANJIL-ALAMPC MINGW64 ~/Desktop/WorkSpace/New folder (4) (master)
+$ git branch -M
+fatal: branch name required
+
+Tanjil Alam@TANJIL-ALAMPC MINGW64 ~/Desktop/WorkSpace/New folder (4) (master)
+$ git branch
+* master
+
+Tanjil Alam@TANJIL-ALAMPC MINGW64 ~/Desktop/WorkSpace/New folder (4) (master)
+$ git push origin master
+To https://github.com/Heykcer/Responsive-web-design.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Heykcer/Responsive-web-design.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Tanjil Alam@TANJIL-ALAMPC MINGW64 ~/Desktop/WorkSpace/New folder (4) (master)
+$ git --hekp
+unknown option: --hekp
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]
+           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]
+           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]
+           <command> [<args>]        
+
+Tanjil Alam@TANJIL-ALAMPC MINGW64 ~/Desktop/WorkSpace/New folder (4) (master)
+$
